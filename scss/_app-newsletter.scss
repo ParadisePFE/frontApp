@@ -1,0 +1,59 @@
+#newletter-box {
+	width: 359px;
+	height: 260px;
+	background-image: url('../images/newletter-bg.png');
+	border: none;
+	position: relative;
+	p.text {
+		background-color: rgba(#000, .5);
+		font-family: $open;
+		font-size: rem-calc(14);
+		color: #FFF;
+		text-align: center;
+		width: 80%;
+		margin: auto;
+		position: relative;
+  		top: 123px;
+	}
+	form {
+		width: 80%;
+		margin: auto;
+		position: relative;
+		top: 140px;
+		* { display: inline-block; }
+		input[type="text"] {
+			width: 70%;
+			background-color: #FFF;
+			border: 1px solid rgba(#952c03, .5);
+			padding-left: 8px;
+			color: #952c03;
+			font-family: $open;
+		}
+		#go-subs-btn {
+			width: 28%;
+			height: 2.3125rem;
+			line-height: 2.3125rem;
+			color: #fecfa5;
+			font-family: $open;
+			text-align: center;
+			font-size: rem-calc(15);
+			font-weight: 700;
+			text-transform: capitalize;
+			border: 1px solid rgba(#952c03, .7);
+			@include background-image(linear-gradient(to bottom right, #f93d01, #da0300));
+			@include transition-duration(.7s);
+			padding: 0;
+			margin: 0;
+			&:focus { outline: none; }
+			&:hover {
+				@include background-image(linear-gradient(to bottom right, #da0300, #f93d01));
+			}
+		}
+	}
+}
+
+.fb-page {
+	width: 359px;
+	height: 260px;
+	margin-top: 14px;
+}

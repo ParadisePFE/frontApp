@@ -1,2 +1,76 @@
-// The latest settings can be found here:
-// https://github.com/zurb/bower-foundation/blob/master/scss/foundation/_settings.scss
+// template colors
+$vert-bleu: #0d98ba;
+$bleu-clair: #88abc2;
+$gris: #d0e0eb;
+
+
+$simple-btn-fcolor: #c1d4e1;
+$simple-btn-color1: #76a2bf;
+$simple-btn-color2: #88abc2;
+$simple-btn-strock: #0c89a7;
+$simple-btn-shadow: $simple-btn-strock;
+
+// inputs config
+$input-bg-color: #ebf7f8;
+$input-border-color: #bdd2e0;
+$input-box-shadow: 0 2px 0px rgba(#88abc2, 0.11), inset 0 1px 2px rgba(0,0,0,0.1);
+$input-focus-border-color: lighten($vert-bleu, 15%);
+$input-transition-fade-time: 0.6s;
+
+// fonts
+$roboto : "Roboto";
+$open: "Open Sans"; 
+$as: "Aguafina Script"; 
+
+// global row width
+$row-width: 71.25rem;
+
+// sidebar
+$sidebar-bg: #ebf7f8;
+$sidebar-width: 16.44rem;
+$sidebar-min-height: 18.44rem;
+
+// Background color for the top bar
+$topbar-bg: $vert-bleu;
+$topbar-margin-bottom: 1.25rem;
+$topbar-height: 3.875rem;
+$topbar-title-weight: 700;
+$topbar-link-font-family: $roboto;
+$topbar-link-bg: $topbar-bg;
+$topbar-link-bg-hover: darken($vert-bleu, 6%);
+$topbar-link-text-transform: capitalize;
+
+// tobar sub-menu
+$topbar-dropdown-link-bg-hover: darken($vert-bleu, 2%);
+$topbar-dropdown-bg: darken($vert-bleu, 2%);
+
+// thumbnails style
+$thumb-strock-width: 0.3125rem;
+$thumb-strock-color: #FFF;
+$thumb-box-shadow: 0px 0px 2px rgba(#000 ,.3); 
+$thumb-width: 16.31rem;
+$thumb-height: 5.938rem;
+$thumb-margin-bottom: 0.5rem;
+
+// service-bar description
+$bar-bg-color: #caff42;
+$ellipse-width: 5.125rem;
+$ellipse-height: 5.125rem;
+
+// products view
+$list-heading-color: #0d98ba;
+$item-bg-color: #FFF;
+$item-strock: 1px solid rgba(#9e9f9d, .3);
+$item-box-shadow: 0px 4px 0px rgba(#9e9f9d ,.3); 
+$item-min-height: 237px;
+$brand-color: #646464;
+$price-color: #026a84;
+
+// footer setttings
+$footer-top-bg: #0d98ba;
+$footer-bottom-bg: #88abc2;
+$footer-top-height: 15.38rem;
+$footer-bottom-height: 3.375rem;
+
+// slides
+$slide-default-height: 277px; 

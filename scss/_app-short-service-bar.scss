@@ -1,0 +1,28 @@
+#short-service-bar {
+	padding: 0px;
+	margin-top: rem-calc(15);
+	background-color: $bar-bg-color;
+	.columns {
+		padding-left: rem-calc(4);
+		padding-right: rem-calc(4); 
+	}
+	.ellipse {
+		width: $ellipse-width;
+		height: $ellipse-height;
+		border-radius: rem-calc(50);
+		display: inline-block;
+		background-color: #FFF;
+		margin-top: rem-calc(7);
+		margin-bottom: rem-calc(7);
+		text-align: center;
+	}
+	p {
+		font-family: $roboto;
+		font-size: rem-calc(15);
+		color: #FFF;
+		text-align: left;
+		width: 185px;
+		position: relative;
+		top: rem-calc(10);
+	}
+}

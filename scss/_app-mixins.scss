@@ -1,0 +1,14 @@
+@mixin place-holder ( $color ) {
+	input.placeholder { color: $color; }
+	input:-moz-placeholder { color: $color; }
+	input::-moz-placeholder { color: $color; }
+	input:-ms-input-placeholder { color: $color; }
+	input::-webkit-input-placeholder { color: $color; }
+}
+
+@mixin app-devider ($color, $height) {
+	width: 1px;
+	height: $height;
+	background-color: $color;
+	margin: 5px;
+}
