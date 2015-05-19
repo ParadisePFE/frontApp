@@ -3,6 +3,7 @@
 @import "foundation";
 @import "app-mixins";
 
+// general & index styles
 @import "app-icons";
 @import "app-topbar";
 @import "app-header";
@@ -11,3 +12,10 @@
 @import "app-main-content";
 @import "app-newsletter";
 @import "app-footer";
+
+// single show styles
+@import "app-single-show";
+@import "app-listing";
+
+// include bootstrap paginator
+@import "app-pagination";

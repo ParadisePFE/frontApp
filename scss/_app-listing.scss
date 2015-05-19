@@ -1,0 +1,118 @@
+.listing-sidebar {
+	background-color: $sidebar-bg;
+	width: $sidebar-width;
+	min-height: $sidebar-min-height;
+	margin-bottom: 25px;
+	.head {
+		width: 100%;
+		height: 42px;
+		background-image: url('../images/head-gradient.png');
+		background-repeat: no-repeat;
+		background-color: transparent;
+		text-align: left;
+		font-family: calibri, $roboto;
+		font-size: rem-calc(17);
+		text-transform: uppercase;
+		color: #FFF;
+		line-height: 42px;
+		i.bag {
+			height: 20px;
+			width: 22px;
+			background-image: url('../images/bag.png');
+			background-repeat: no-repeat;
+			background-color: transparent;
+			margin-left: 19px;
+			position: relative;
+			top: 2px;
+		}
+		span {
+			margin-left: 12px;
+			font-weight: bold;
+			letter-spacing: rem-calc(1);
+		}
+	}
+	.sub-list {
+		width: 95%;
+		height: 250px;
+		overflow-y: scroll;
+		overflow-x: hidden;  
+		margin: auto;
+		padding-top: 5px;
+		&::-webkit-scrollbar {
+			width: 10px;
+		}
+
+		&::-webkit-scrollbar-track {
+			-webkit-box-shadow: none; 
+			border-radius: 5px;
+			background-color: #c3d5e1;
+			margin: 5px;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			border-radius: 6px;
+			background-color: #7ba1ba; 
+		}
+		a {
+			display: block;
+			width: 100%;
+			height: 30px;
+			line-height: 30px;
+			margin:  4px auto;
+			font-family: $roboto;
+			color: #969797;
+			font-size: rem-calc(14);
+			font-weight: 500;
+			text-transform: uppercase;
+			@include transition-duration(.7s);
+			span { margin-left: 5px; position: relative; top: -5px; }
+			&:hover { color: darken(#969797, 8%); }
+		}
+	}
+	
+	&.bordred {
+		border: 1px solid #e0e0e0;
+		box-shadow: 0px 3px 0px rgba(#e0e0e0, .75);
+		padding: 25px;
+		height: auto !important;
+		min-height: inherit !important;
+	}
+}
+.long-div { width: 100%; background-color: transparent; border-bottom: 1px solid #c1d0d9; padding-bottom: 8px; margin-bottom: 10px; }
+i.left-arrow {
+	width: 0; 
+	height: 0; 
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent; 
+	
+	border-right:6px solid blue;
+}
+i.right-arrow {
+	width: 0; 
+	height: 0; 
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	
+	border-left: 6px solid green;
+}
+.filters { 
+	width: 50%; 
+	select {
+		background-color: #FFF;
+		text-transform: uppercase;
+		font-size: rem-calc(14);
+		color: darken($gris, 15%);
+		border: 1px solid $gris;
+		border-radius: 3px;
+		width: 100%;
+		font-family: $open;
+		&:focus { outline: none; }
+		margin: 0px;
+		padding-bottom: 0px;
+		padding-top: 0;
+	}
+}
+.paginator { 
+	width: 50%; 
+	.pagination { margin-top: 5px; margin-bottom: 0; }
+}

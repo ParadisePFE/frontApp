@@ -14,3 +14,14 @@ $('#category-slick').owlCarousel({
 
 // RESET ITEMS WIDTH MANUALY
 $('.owl-item').css('width', 'auto');
+
+// INIT PRICE RANGE MANAGER
+$('#price-handles').ionRangeSlider({
+    type: "double",
+    grid: true,
+    min: 0,
+    max: 1000,
+    from: 200,
+    to: 800,
+    postfix: " Dirhams",
+});

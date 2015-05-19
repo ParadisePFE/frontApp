@@ -1,0 +1,368 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+
+  <!-- @settings: METADATA -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paradise</title>
+
+  <!-- @import: GOOGLE FONTS -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Aguafina+Script' rel='stylesheet' type='text/css'>
+  
+  <!-- @import: RESSOURCES -->
+  <link rel="stylesheet" href="stylesheets/app.css" />
+  <link rel="stylesheet" href="bower_components/owl-carousel/owl.carousel.css" />
+  <script src="bower_components/modernizr/modernizr.js"></script>
+
+</head>
+<body>
+  <div id="fb-root"></div>
+  <script src="js/fb-sdk.js"></script>
+
+  <nav id="topBar" class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <!-- site name -->
+      <li class="name">
+        <h1><a href="#">Paradise</a></h1>
+      </li>
+
+      <!-- Responsive menu icon-->
+      <li class="toggle-topbar menu-icon"><a href="#"></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      
+      <div class="right">
+        <ul>
+          <!-- Categories list / responsive mode -->
+          <li class="has-dropdown show-for-medium-only show-for-small-only">
+            <a href="#">catégories</a>
+            <ul class="dropdown">
+              <li><a href="#">first category</a></li>
+              <li><a href="#">Second category</a></li>
+              <li><a href="#">Third category</a></li>
+            </ul>
+          </li>
+          <li class="no-bg"><a href="#" class="button simple-btn">se connecter</a></li>
+          <li class="no-bg"><a href="#" class="button simple-btn">devenir membre</a></li>
+          <li class="no-bg">
+            <a href="#" class="cart-btn">
+              <div class="shadow"></div>
+              <div class="icon"></div>
+              <div class="count"><span>10</span></div>
+            </a>
+          </li>
+        </ul>
+        
+        
+      </div>
+      
+
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li class="has-form show-for-medium-up" id="topbar-form">
+          <div class="row collapse">
+            <div class="large-8 small-9 columns">
+              <input type="text" id="top-search-field" placeholder="Chercher un produit">
+              <button type="submit"></button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </nav>
+  
+  <!-- HEADER: Begin -->
+  <div class="row" id="header">
+    <div class="large-12 columns">
+      <div class="row">
+        <div class="large-4 medium-4 columns">
+          <img src="images/logo-lg.png" alt="paradise-logo">
+        </div>
+        <div class="large-8 medium-4 columns">
+          <ul class="inline-list right" id="menu-list">
+            <li><a href="#">accueil</a></li>
+            <li class="div"></li>
+            <li><a href="#">partenaires</a></li>
+            <li class="div"></li>
+            <li><a href="#">contact</a></li>
+            <li class="div"></li>
+            <li><a href="#">qui sommes-nous</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row clearfix">
+        <div class="large-12 medium-12 columns big-menu clearfix">
+          <div class="first-part">
+            <a href="#" class="home"><img src="images/home-ic.png" alt=""></a>
+          </div>
+          <div class="div"></div>
+          <div class="second-part">
+            <ul id="category-slick">
+              <li><a href="#">hygiène</a></li>
+              <li><a href="#">bio / nature</a></li>
+              <li><a href="#">corps</a></li>
+              <li><a href="#">cheveux</a></li>
+              <li><a href="#">visage</a></li>
+              <li><a href="#">santé</a></li>
+              <li><a href="#">maternité</a></li>
+              <li><a href="#">fitness</a></li>
+              <li><a href="#">solaire</a></li>
+              <li><a href="#">vétérinaire</a></li>
+            </ul>
+          </div>
+          <div class="div"></div>
+          <div id="slide-nav">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 columns search-bar">
+          <form action="#">
+            <div class="row clearfix">
+              <div class="large-6 columns">
+                <input type="text" name="keyword" placeholder="Chercher un produit...">
+              </div>
+              <div class="large-2 columns right">
+                <button type="submit" class="button right search-btn">Chercher</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- HEADER: End -->
+
+  <div class="row" id="single-show">
+    <div class="large-12 columns">
+      <ul class="breadcrumbs">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li class="unavailable"><a href="#">Gene Splicing</a></li>
+        <li class="current"><a href="#">Cloning</a></li>
+      </ul>
+    </div>
+    <div class="large-12 columns">
+      <div class="row">
+        <div class="large-3 columns">
+          <div class="single-product-thumb">
+            <img src="http://placehold.it/223/223" alt="">
+          </div>
+          <div><a href="#" class="single-btn name">Lorem ipsum dolor</a></div>
+          <div>
+            <a href="#" class="single-btn add-to-cart">
+              <i class="ic icon-18"></i><span>ajouter au panier</span>
+            </a>
+          </div>
+        </div>
+        <div class="large-9 columns">
+          <ul class="accordion" id="product-accordion" data-accordion>
+            <li class="accordion-navigation">
+              <a href="#panel1a"><i class="arrow-right"></i>Accordion 1</a>
+              <div id="panel1a" class="content active">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, a! Nulla cum eaque culpa ducimus modi consectetur recusandae ipsam, dolore. Enim necessitatibus ipsam saepe. Ab, maxime sapiente aspernatur eligendi fuga!</p>
+                <p>Laborum quas eius asperiores nostrum corporis, amet ipsam exercitationem atque nobis quae! Laboriosam sequi possimus, eum ipsam laborum minima quidem aspernatur mollitia rerum fugiat ullam aperiam dolorem veniam odit quis?</p>
+                <p>Iste id soluta aut debitis earum deserunt, saepe veritatis nulla voluptate velit! Expedita quos necessitatibus minus aspernatur tempore hic soluta numquam, dicta illum odit totam fugit quam, dolore, at fuga.</p>
+                <p>Ipsam officiis, voluptatem tenetur deserunt. Facere itaque dolores rem esse reprehenderit sapiente quam, officia repellat nostrum mollitia voluptates inventore soluta enim hic ipsum tempora iure cum cumque iste qui. Quis.</p>
+                <p>Facilis, soluta ipsam saepe praesentium dignissimos voluptatem et alias? Consequuntur, nesciunt! Voluptas maiores hic, error eos, deleniti quisquam possimus sint, natus consectetur laboriosam dolores quam nam omnis saepe eligendi, dolor?</p>
+                <p>Esse soluta est quibusdam labore. Consequuntur esse eligendi quis culpa temporibus animi, deserunt veritatis, nobis nemo et est! Perferendis odio rem magni ex eligendi non debitis incidunt molestias, culpa animi.</p>
+                <p>Eveniet deleniti temporibus nemo autem fugit, similique, quidem, ipsam non quam delectus dolor molestiae commodi obcaecati consequatur minus? Earum ducimus nulla porro temporibus dignissimos aperiam voluptatibus repudiandae quis, cumque in.</p>
+              </div>
+            </li>
+            <li class="accordion-navigation">
+              <a href="#panel2a"><i class="arrow-right"></i>Accordion 2</a>
+              <div id="panel2a" class="content">
+                Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </li>
+            <li class="accordion-navigation">
+              <a href="#panel3a"><i class="arrow-right"></i>Accordion 3</a>
+              <div id="panel3a" class="content">
+                Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <div id="products-list">
+        <p class="heading-title"><span>produits associés</span></p>
+        <div class="row">
+          <!-- SINGLE ITEM: Begin -->
+          <div class="large-3 medium-3 columns">
+            <div class="item">
+              <img src="images/products/product-1.png" alt="product title" class="item-thumb">
+              <p class="item-title">Shampooing douche figue & kiwi, Extra-doux</p>
+              <p class="item-details clearfix">
+                <span class="brand left">Melvita</span>
+                <span class="price right">150</span>
+              </p>
+              <!-- HOVER EFFECT: Begin -->
+              <div class="item-hover">
+                <p class="item-hover-title">Shampooing douche figue & kiwi, Extra-doux</p>
+                <i class="ic item-devider"></i>
+                <p class="item-hover-description">Odio etiam magna turpis aliquam? Mus scelerisque, penatibus nisi, rhoncus? Dolor, augue proin augue nisi! Proin dapibus.</p>
+                <a href="#" class="item-hover-btn">voir les details</a>
+                <a href="#" class="item-hover-btn">ajouter au panier</a>
+              </div>
+              <!-- HOVER EFFECT: End -->
+            </div>
+          </div>
+          <!-- SINGLE ITEM: End -->
+          <!-- SINGLE ITEM: Begin -->
+          <div class="large-3 medium-3 columns">
+            <div class="item">
+              <i class="ic promo-label"></i>
+              <img src="images/products/product-1.png" alt="product title" class="item-thumb">
+              <p class="item-title">Shampooing douche figue & kiwi, Extra-doux</p>
+              <p class="item-details clearfix">
+                <span class="brand left">Melvita</span>
+                <span class="price right">150</span>
+              </p>
+              <!-- HOVER EFFECT: Begin -->
+              <div class="item-hover">
+                <p class="item-hover-title">Shampooing douche figue & kiwi, Extra-doux</p>
+                <i class="ic item-devider"></i>
+                <p class="item-hover-description">Odio etiam magna turpis aliquam? Mus scelerisque, penatibus nisi, rhoncus? Dolor, augue proin augue nisi! Proin dapibus.</p>
+                <a href="#" class="item-hover-btn">voir les details</a>
+                <a href="#" class="item-hover-btn">ajouter au panier</a>
+              </div>
+              <!-- HOVER EFFECT: End -->
+            </div>
+          </div>
+          <!-- SINGLE ITEM: End -->
+          <!-- SINGLE ITEM: Begin -->
+          <div class="large-3 medium-3 columns">
+            <div class="item">
+              <img src="images/products/product-1.png" alt="product title" class="item-thumb">
+              <p class="item-title">Shampooing douche figue & kiwi, Extra-doux</p>
+              <p class="item-details clearfix">
+                <span class="brand left">Melvita</span>
+                <span class="price right">150</span>
+              </p>
+              <!-- HOVER EFFECT: Begin -->
+              <div class="item-hover">
+                <p class="item-hover-title">Shampooing douche figue & kiwi, Extra-doux</p>
+                <i class="ic item-devider"></i>
+                <p class="item-hover-description">Odio etiam magna turpis aliquam? Mus scelerisque, penatibus nisi, rhoncus? Dolor, augue proin augue nisi! Proin dapibus.</p>
+                <a href="#" class="item-hover-btn">voir les details</a>
+                <a href="#" class="item-hover-btn">ajouter au panier</a>
+              </div>
+              <!-- HOVER EFFECT: End -->
+            </div>
+          </div>
+          <!-- SINGLE ITEM: End -->
+          <!-- SINGLE ITEM: Begin -->
+          <div class="large-3 medium-3 columns">
+            <div class="item">
+              <img src="images/products/product-1.png" alt="product title" class="item-thumb">
+              <p class="item-title">Shampooing douche figue & kiwi, Extra-doux</p>
+              <p class="item-details clearfix">
+                <span class="brand left">Melvita</span>
+                <span class="price right">150</span>
+              </p>
+              <!-- HOVER EFFECT: Begin -->
+              <div class="item-hover">
+                <p class="item-hover-title">Shampooing douche figue & kiwi, Extra-doux</p>
+                <i class="ic item-devider"></i>
+                <p class="item-hover-description">Odio etiam magna turpis aliquam? Mus scelerisque, penatibus nisi, rhoncus? Dolor, augue proin augue nisi! Proin dapibus.</p>
+                <a href="#" class="item-hover-btn">voir les details</a>
+                <a href="#" class="item-hover-btn">ajouter au panier</a>
+              </div>
+              <!-- HOVER EFFECT: End -->
+            </div>
+          </div>
+          <!-- SINGLE ITEM: End -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="part-1">
+      <div class="row">
+        <div class="large-3 columns">
+          <div class="footer-col">
+            <p class="col-title">informations</p>
+            <ul>
+              <li><a href="#">Accueil du site</a></li>
+              <li><a href="#">Mentions legales</a></li>
+              <li><a href="#">Modalités de livraison</a></li>
+              <li><a href="#">Conditions d’utilisations</a></li>
+              <li><a href="#">A propos</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="large-3 columns">
+          <div class="footer-col">
+            <p class="col-title">contact</p>
+            <ul class="contact-list">
+              <li><i class="ic icon-10"></i><span>Paradise SARL</span></li>
+              <li><i class="ic icon-11"></i><span>+212 675 592 148</span></li>
+              <li><i class="ic icon-12"></i><span>join@paradise.ma</span></li>
+              <li><i class="ic icon-13"></i><span>17, Rue des Mimosas, Beauséjour BD Ghandi, Casablanca.</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="large-3 columns">
+          <div class="footer-col">
+            <p class="col-title">liens</p>
+            <ul>
+              <li><a href="#">Accueil du site</a></li>
+              <li><a href="#">Mentions legales</a></li>
+              <li><a href="#">Modalités de livraison</a></li>
+              <li><a href="#">Conditions d’utilisations</a></li>
+              <li><a href="#">A propos</a></li>
+            </ul>
+            <form action="#" method="get">
+              <input type="text" name="keyword" id="footer-search" placeholder="Chercher un produit">
+              <input type="submit" id="footer-submit" value="">
+            </form>
+          </div>
+        </div>
+        <div class="large-3 columns">
+          <div class="footer-col">
+            <p class="col-title">Accessibilité</p>
+            <ul>
+              <li><a href="#"><i class="ic facebook"></i></a></li>
+              <li><a href="#"><i class="ic google"></i></a></li>
+              <li><a href="#"><i class="ic twitter"></i></a></li>
+              <li><a href="#"><i class="ic linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="part-2">
+      <div class="row">
+        <div class="large-6 columns">
+          <p class="footer-slug">Paramecida SARL - Tous droits reservés 2015 / 2016</p>
+        </div>
+        <div class="large-6 columns clearfix">
+          <ul class="inline-list right">
+            <li><i class="ic icon-14"></i></li>
+            <li><i class="ic icon-15"></i></li>
+            <li><i class="ic icon-16"></i></li>
+            <li><i class="ic icon-17"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="bower_components/owl-carousel/owl.carousel.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
